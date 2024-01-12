@@ -1,0 +1,57 @@
+/* commom items start */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Cookie', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align-center{
+    align-items: center;
+}
+
+/* common items end */
+/* navbar start */
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav {
+    background-color: lightcoral 
+}
+.menu ul li{
+    color: white;
+
+}
+   
+nav .menu ul a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 25px 26px;
+}
+
+
+
